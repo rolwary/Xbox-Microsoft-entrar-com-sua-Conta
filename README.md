@@ -1,4 +1,5 @@
-Linguagens utilizadas: :point_down:  :point_down:  :point_down:
+Linguagens utilizadas: 
+:point_down:  :point_down: :point_down: :point_down: :point_down:
 <hr>
 
 
