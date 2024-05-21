@@ -1,0 +1,157 @@
+html{
+    height: 100%;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #228B22;
+}
+.imagem-X{
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.caixa{
+    border: solid 3px #F8F8FF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    width: 480px;
+    height: 420px;
+    padding:13px 10px;
+    margin: 13px 10px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background:#F8F8FF;
+    box-shadow: 0px 0px 5px #32CD32,
+                0px 0px 25px #32CD32,
+                0px 0px 75px #32CD32,
+                0px 0px 100px #32CD32;
+}
+.logo-M{
+    margin-bottom: 10px;
+    line-height: 50px;
+    left: 10px;
+    position: relative;
+    transform: translate(-40%);
+}
+span{
+    font-size: 16px;
+    position: relative;
+    text-align: center;
+    bottom: 5px;
+    color: #808080;    
+}
+.login{
+    margin-bottom: 30px;
+    position: relative;
+    padding: 13px 10px;
+    width: 430px;
+    border: solid 3px #000000;
+    border-radius: 20px; 
+}
+input{
+    width: 90%;
+    border: none;
+    font-size: 16px;
+    padding: 5px 2px;
+    outline: none;
+    background: transparent;
+    color: #000000;
+}
+::placeholder{
+    pointer-events: none;
+    font-size: 15px;
+    position: absolute;
+    bottom: 10px;
+}
+.label{
+    position: relative;
+    width: 30%;
+    bottom: 25px;
+    color: #1E90FF;
+    font-size: 16px;
+
+}
+.box{
+    width: 5%;
+    position: relative;
+    left: 125px;
+    bottom: 5px;
+    color: #1E90FF;
+}
+.A{
+    position: relative;
+    width: 35%;
+    bottom: 40px;
+    font-size: 16px;
+    left: 65%;
+}
+.A a{
+  text-decoration: none;
+  color: #1E90FF;
+}
+.A a:hover{
+    text-decoration: underline;
+    color: #000000;
+}
+.conta{
+    position: relative;
+    bottom: 15px;
+    font-size: 16px;
+    right:1px;
+
+}
+.conta a{
+    color: #F8F8FF;
+    border: solid 2px #1E90FF;
+    background: #1E90FF;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.conta a:hover{
+    color:#F8F8FF;
+    border: solid 2px #228B22;
+    background: #228B22;
+    border-radius: 20px;
+    text-decoration: none;
+    box-shadow: 0px 0px 5px #32CD32,
+                0px 0px 25px #32CD32,
+                0px 0px 75px #32CD32,
+                0PX 0PX 100PX #32CD32;
+}
+.logar{
+    position: relative;
+    top: 20px;
+    width: 100px;
+    left: 100px;
+}
+.logar a{
+    width: 150%;
+    position:absolute;
+    border: solid 2px #1E90FF;
+    border-radius: 20px;
+    line-height: 30px;
+    text-decoration: none;
+    box-sizing: border-box;
+    background: #1E90FF;
+    color: #F8F8FF;
+    
+}
+.logar a:hover{
+    color: #F8F8FF;
+    border: solid 1px #32CD32;
+    background: #228B22;
+    border-radius: 20px;
+    text-decoration: none;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px #32CD32,
+                0px 0px 25px #32CD32,
+                0px 0px 75px #32CD32,
+                0PX 0PX 100PX #32CD32;
+
+}
